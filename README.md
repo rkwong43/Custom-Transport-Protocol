@@ -29,7 +29,7 @@ Command line syntax:
 
 Receiver:
 
-./3700send <recv_host>:<recv_port>
+./3700send (recv_host):(recv_port)
 
 Included is a net simulator that will simulate certain conditions to test reliability of the protocol.
 Conditions include:
@@ -43,12 +43,12 @@ Conditions include:
 
 Command line syntax:
 
-netsim [--bandwidth <bw-in-mbps>] [--latency <latency-in-ms>] [--delay <percent>] [--drop <percent>] [--reorder <percent>] [--duplicate <percent>]
+netsim [--bandwidth (bw-in-mbps)] [--latency (latency-in-ms)] [--delay (percent)] [--drop (percent)] [--reorder (percent)] [--duplicate (percent)]
   
 Additionally there is a helper script included to run the protocol on specified data sizes.
 
 Command line syntax:
 
-./run [--size (small|medium|large|huge)] [--printlog] [--timeout <seconds>]
+./run [--size (small|medium|large|huge)] [--printlog] [--timeout (seconds)]
   
 The helper script and net simulator were starter code, and unedited by me.
