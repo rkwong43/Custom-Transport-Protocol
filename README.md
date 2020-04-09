@@ -43,13 +43,7 @@ Conditions include:
 
 Command line syntax:
 
-netsim [--bandwidth <bw-in-mbps>] 
-    
-       [--latency <latency-in-ms>] [--delay <percent>] 
-       
-       [--drop <percent>] 
-       
-       [--reorder <percent>] [--duplicate <percent>]
+netsim [--bandwidth <bw-in-mbps>] [--latency <latency-in-ms>] [--delay <percent>] [--drop <percent>] [--reorder <percent>] [--duplicate <percent>]
   
 Additionally there is a helper script included to run the protocol on specified data sizes.
 
